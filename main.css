@@ -13,7 +13,7 @@ ul {
 }
 #banner {
    clear: both;
-   background-image: url("../img/ibiza.jpg");
+   background-image: url("https://i.ytimg.com/vi/-bIuLEWnuIc/maxresdefault.jpg");
    height: 404px;
    background-size: cover;
    width: 960px;
@@ -24,22 +24,23 @@ ul {
    padding: 0px;
 }
 #header {
-   background-color:red;
+   background-color:beige;
    height: 70px;
    line-height: 70px;
+   padding-left: 20px; 
 }
 #menu {
-  background-color:blue;
-   width: 593px;
+  background-color: ;
+   width: 500px;
    float: left;
 
 }
 #menu a {
-   color: white;
+   color: black;
 }
 
 #logo {
-   background-color: green;
+   background-color: beige;
    width: 367px;
    float: left;
 }
@@ -49,13 +50,14 @@ ul {
 }
 #feature1, #feature2, #feature3 {
    float: left;
-   width: 320px;
+   width: 300px;
 
 }
 #banner img {
    width: 100%;
+   padding-left: 100px;
 }
 #footer {
-   background-color: orange;
+   background-color: darkgrey;
    clear: both;
 }
