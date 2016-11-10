@@ -1,7 +1,7 @@
-li{
-        display: inline;
-}
-ul {
+ li{
+          display: inline;
+ }
+ ul {
     margin: 0px;
     padding: 0px;
 
@@ -14,15 +14,15 @@ ul {
  #banner {
    clear: both;
    background-image: url("../img/ibiza.jpg");
-     height: 404px;
+   height: 404px;
    background-size: cover;
    width: 960px;
    background-repeat: no-repeat;
- }
+}
  #banner h1 {
    margin: 0px;
    padding: 0px;
- }
+   }
  #header {
    background-color:red;
    height: 70px;
@@ -36,7 +36,7 @@ ul {
  }
  #menu a {
    color: white;
- }
+   }
 
  #logo {
    background-color: green;
@@ -58,4 +58,5 @@ ul {
  #footer {
    background-color: orange;
    clear: both;
- }
+   }
+
