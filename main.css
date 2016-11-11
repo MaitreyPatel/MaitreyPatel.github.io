@@ -1,10 +1,38 @@
-li{
-          display: inline;
- }
 ul {
-    margin: 0px;
+    list-style-type: none;
+    margin: 0;
     padding: 0px;
+    overflow: hidden;
+    background-color: beige;
+}
 
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
 }
 #wrapper {
      width: 960px;
@@ -12,22 +40,27 @@ ul {
    margin-right: auto;
 }
 #banner {
-   clear: both;
+   clear: both;	
    background-image: url("https://i.ytimg.com/vi/-bIuLEWnuIc/maxresdefault.jpg");
    height: 404px;
    background-size: cover;
-   width: 960px;
+   width: 1000px;
    background-repeat: no-repeat;
+   border-style: solid;
+	border-top-color: thick line black;
+	border-right-color: black;
+	border-left-color:black;
+	border-bottom-color:black;
 }
-#banner h1 {
-   margin: 0px;
-   padding: 0px;
-}
+
+
 #header {
    background-color:beige;
-   height: 70px;
+   height: 90px;
    line-height: 70px;
-   padding-left: 20px; 
+   width: 1000px;
+   
+   
 }
 #menu {
   background-color: ;
@@ -36,28 +69,148 @@ ul {
 
 }
 #menu a {
-   color: black;
+   color: coral;	
+
 }
 
 #logo {
    background-color: beige;
    width: 367px;
    float: left;
+   text-align: center;
 }
 #logo h1 {
    padding: 0px;
-   margin: 0px;
+   margin: 10px;
+   margin-right: 0px;
 }
 #feature1, #feature2, #feature3 {
    float: left;
-   width: 300px;
+   width: 315px;
+   text-align: center;
+   font-size: 25px;
 
 }
 #banner img {
    width: 100%;
-   padding-left: 100px;
+ 
 }
 #footer {
    background-color: darkgrey;
    clear: both;
+   text-align: center;
+   width: 1005px;
+   padding: 0;
+}
+#footer img{
+	height: 50px;
+	width: 150px;
+}
+/*This is the About page css format*/
+#ourmission {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: beige;
+	text-align: center;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: thick line black;
+	border-right-color: beige;
+	border-left-color:beige;
+	border-bottom-color:beige;
+	
+	
+}
+#header {
+
+	width: 1005px;
+}
+#wapper {
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+#patel {
+	float: left;
+	text-align: center;
+	width: 987px;
+	padding: 10px;
+	margin-top: 109px;
+	background-color: ghostwhite;
+}
+#rawat {
+	float: left;
+	text-align: center;
+	width: 980px;
+	padding: 10px;
+	margin-top: 0px;
+	background-color: ghostwhite;
+	border-style: solid;
+	border-top-color: thick line black;
+	border-right-color: ghostwhite;
+	border-left-color:ghostwhite;
+	border-bottom-color:ghostwhite;
+}
+#footer {
+   background-color: darkgrey;
+   clear: both;
+   text-align: center;
+   width: 1005px;
+   padding: 0;
+}
+#footer img{
+	height: 50px;
+	width: 150px;
+}
+/*This is the css format for the contact page*/
+#contactpage {
+	background-color: gainsboro;
+	border-style: solid;
+	border-top-color: thick line black;
+	border-right-color: gainsboro;
+	border-left-color:gainsboro;
+	border-bottom-color:gainsboro;
+	width: 1000px;
+}
+#header {
+
+	width: 1005px;
+}
+#wapper {
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+#phone {
+	background-color: gainsboro;
+	padding: 20px;
+	width: 966px;
+	float: left;
+}
+#phone img {
+	margin-right: 300px;
+	float: left;
+}
+#address {
+	background-color: gainsboro;
+	width: 966px;
+	padding: 20px;
+	float: left;
+	
+}
+#address img {
+	margin-right: 300px;
+	float: left;
+}
+#footer {
+   background-color: darkgrey;
+   clear: both;
+   text-align: center;
+   width: 1005px;
+   padding: 0;
+}
+#footer img{
+	height: 50px;
+	width: 150px;
 }
