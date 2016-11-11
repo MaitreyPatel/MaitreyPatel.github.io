@@ -214,3 +214,113 @@ li:last-child {
 	height: 50px;
 	width: 150px;
 }
+/* This is the css format for the timeline page*/
+#header {
+
+	width: 1005px;
+}
+#wapper {
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+#timeline {
+	background-color: beige;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: thick line black;
+	border-right-color: beige;
+	border-left-color:beige;
+	border-bottom-color:beige;
+}
+#timeline img {
+	height: 700px;
+    width: 100%;
+	max-width: 1080px;
+
+}
+#footer {
+   background-color: darkgrey;
+   clear: both;
+   text-align: center;
+   width: 1005px;
+   padding: 0;
+}
+#footer img{
+	height: 50px;
+	width: 150px;
+}
+/* This is the css format for the gallery page*/
+#header {
+
+	width: 1005px;
+}
+#wapper {
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+#intergallery {
+	background-color: beige;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: thick line black;
+	border-right-color: beige;
+	border-left-color:beige;
+	border-bottom-color:black;
+}
+
+#photo1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 120px;
+}
+#photo2 {
+	margin-top: 50px;
+	float: left;
+	margin-bottom: 10px;
+	height: 50px;
+	clear: both;
+	margin-left: 500px;
+}
+#photo3 {
+	margin-top: 50px;
+	float: left;
+	margin-bottom: 10px;
+	height: 50px;
+	width: 60px;
+	clear: both;
+}
+#photo4 {
+	margin-top: 150px;
+	float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+#photo5 {
+	margin-bottom: 20px;
+	width: 200px;
+	margin-left: 300px;
+    
+}
+
+
+#footer {
+   background-color: darkgrey;
+   clear: both;
+   text-align: center;
+   width: 1005px;
+   padding: 0;
+}
+#footer img{
+	height: 50px;
+	width: 150px;
+}
